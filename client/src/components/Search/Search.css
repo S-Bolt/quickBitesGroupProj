@@ -1,0 +1,128 @@
+.search-container {
+  margin-bottom: 20px;
+}
+
+.restaurant-search{
+    padding: 20px;
+    max-width: 1200px;
+    margin-top: 50px;
+    margin: 0 auto;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #218838;
+  }
+  
+  .results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .restaurant-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .restaurant-image {
+    height: 100px;
+    width: 70%;
+    text-align: center;
+    object-fit:cover;
+    justify-content: space-around;
+    justify-items:flex-end;
+    border-radius: 4%;
+    margin:auto 7px auto 7px;
+    padding: 1.5% 6%;
+  }
+  
+  .restaurant-info {
+    padding: 15px;
+  }
+  
+  .restaurant-name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    justify-content: space-around;
+  }
+  
+  .restaurant-address,
+  .restaurant-rating {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+ div.restaurant-search{
+  justify-content: center;
+  position: absolute;
+  margin-top: 30px;
+  margin-bottom: 600px;
+ }
+ p.non-found{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: crimson;
+ }
+ div.results-container{
+  justify-content: center;
+  position: absolute;
+  display:table-column;
+  margin-left: 20px;
+  margin-right: 40px;
+ }
+img.restaurant-image{
+  margin-left: 362px;
+  margin-right: 600px;
+ justify-content:stretch;
+  width:173px;
+  height:5.2%;
+  object-fit:fill;
+}
+div.restaurant-card{
+  justify-content: space-around;
+  display: contents;
+  flex-direction: column;
+  flex: none;
+}
+h1.title{
+  margin-top:180px;
+  margin-bottom: 30px;
+}
+@media screen 
+and (max-width: 992px) and (min-width: 300px){
+}
+p.restaurant-rating{
+  font-size: 18px;
+  color: rgb(223, 48, 48);
+  font-weight:bold;
+
+}

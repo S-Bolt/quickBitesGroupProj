@@ -1,0 +1,34 @@
+
+@import "./vars.css";
+
+.App {
+    background-color: var(--color-bg);
+    width:100%;
+    height:100%; 
+    overflow:hidden; 
+}
+/* 
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body{
+  min-height:10vh;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+} */
+@media (max-width: 992px) {
+  .App {
+       max-width:100%;
+       min-width:50%;
+  }
+}
+@media (min-width: 300px) {
+  .App{
+      max-width:100%;
+      min-width:50%;
+  }
+}
